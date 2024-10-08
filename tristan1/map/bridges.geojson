@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "bridges",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 1096362644, "bridge": "yes", "layer": "1", "highway": "track", "surface": "asphalt", "tracktype": "grade2", "access": null, "foot": null }, "geometry": { "type": "LineString", "coordinates": [ [ -12.3340141, -37.0894034 ], [ -12.3339842, -37.08944 ], [ -12.3339424, -37.0894899 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 1096362658, "bridge": "yes", "layer": "1", "highway": "track", "surface": null, "tracktype": null, "access": null, "foot": null }, "geometry": { "type": "LineString", "coordinates": [ [ -12.3306886, -37.0858538 ], [ -12.3306848, -37.0858381 ], [ -12.3306414, -37.0857267 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 739038715, "bridge": "yes", "layer": "1", "highway": "footway", "surface": null, "tracktype": null, "access": "no", "foot": "yes" }, "geometry": { "type": "LineString", "coordinates": [ [ -12.3073052, -37.0685333 ], [ -12.3072715, -37.0685287 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 1052133262, "bridge": "yes", "layer": "1", "highway": "path", "surface": null, "tracktype": null, "access": null, "foot": null }, "geometry": { "type": "LineString", "coordinates": [ [ -12.3094103, -37.0671488 ], [ -12.3094551, -37.0671479 ] ] } }
+]
+}
