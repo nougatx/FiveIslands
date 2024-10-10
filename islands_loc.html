@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d175460a50f919c4bff986719c415f1b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d175460a50f919c4bff986719c415f1b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d175460a50f919c4bff986719c415f1b = L.map(
+                "map_d175460a50f919c4bff986719c415f1b",
+                {
+                    center: [28.94904556915751, -59.072195491921946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0fd7e69ae55ac2a6fe25cfc82950787a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0fd7e69ae55ac2a6fe25cfc82950787a.addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            var marker_2b2f5fe4a6e7e15c914862ed4d21122c = L.marker(
+                [-37.10880642711254, -12.288562569323755],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            marker_2b2f5fe4a6e7e15c914862ed4d21122c.bindTooltip(
+                `<div>
+                     Tristan da Cunha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e1a096bf827b04c635e2f8478746f02 = L.marker(
+                [-37.10880642711254, -12.288562569323755],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            var div_icon_14bc591ddd06e3deef9ffd711820aa85 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eTristan da Cunha\u003c/b\u003e\u003c/div\u003e"});
+            marker_7e1a096bf827b04c635e2f8478746f02.setIcon(div_icon_14bc591ddd06e3deef9ffd711820aa85);
+        
+    
+            var marker_3e0185c19397234ec3ba5de5daa09e35 = L.marker(
+                [-15.960240609448975, -5.7047841487715125],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            marker_3e0185c19397234ec3ba5de5daa09e35.bindTooltip(
+                `<div>
+                     Saint Helena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8560e113e0fc03a20307f25f175a8a8 = L.marker(
+                [-15.960240609448975, -5.7047841487715125],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            var div_icon_d7bb6b1234ceeae96f8bdab07cacbf18 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eSaint Helena\u003c/b\u003e\u003c/div\u003e"});
+            marker_a8560e113e0fc03a20307f25f175a8a8.setIcon(div_icon_d7bb6b1234ceeae96f8bdab07cacbf18);
+        
+    
+            var marker_b7c1fae57b83c094515ef1eef78b15ca = L.marker(
+                [-7.9423559696089026, -14.366533397347828],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            marker_b7c1fae57b83c094515ef1eef78b15ca.bindTooltip(
+                `<div>
+                     Ascension Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54ad705827b4c9aa7590f92edd5bdedd = L.marker(
+                [-7.9423559696089026, -14.366533397347828],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            var div_icon_981e2d34daba66c2600b93d0b2e1798f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eAscension Island\u003c/b\u003e\u003c/div\u003e"});
+            marker_54ad705827b4c9aa7590f92edd5bdedd.setIcon(div_icon_981e2d34daba66c2600b93d0b2e1798f);
+        
+    
+            var marker_1d3021c93db55127b7dc4d72b090a562 = L.marker(
+                [-25.06992321107777, -130.10593367045323],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            marker_1d3021c93db55127b7dc4d72b090a562.bindTooltip(
+                `<div>
+                     Pitcairn Islands, Adamstown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b06bcbe402e855042efb9d58c025218 = L.marker(
+                [-25.06992321107777, -130.10593367045323],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            var div_icon_c0257dc374008ca9496a04d032baae30 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003ePitcairn Islands, Adamstown\u003c/b\u003e\u003c/div\u003e"});
+            marker_1b06bcbe402e855042efb9d58c025218.setIcon(div_icon_c0257dc374008ca9496a04d032baae30);
+        
+    
+            var marker_8ac7603b8952a8a832c709d862e6a2dc = L.marker(
+                [65.78507906407131, -168.9783413436392],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            marker_8ac7603b8952a8a832c709d862e6a2dc.bindTooltip(
+                `<div>
+                     Diomede Islands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_528f009eb3ef3269d372fc09624dbcc6 = L.marker(
+                [65.78507906407131, -168.9783413436392],
+                {}
+            ).addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+    
+            var div_icon_b564e8856b0dfe085ef85c6538ce8a9a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003e\u003cb\u003eDiomede Islands\u003c/b\u003e\u003c/div\u003e"});
+            marker_528f009eb3ef3269d372fc09624dbcc6.setIcon(div_icon_b564e8856b0dfe085ef85c6538ce8a9a);
+        
+    
+            tile_layer_0fd7e69ae55ac2a6fe25cfc82950787a.addTo(map_d175460a50f919c4bff986719c415f1b);
+        
+</script>
+</html>
