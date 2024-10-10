@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_977a69da52c5f58a412f8955062b2695 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_977a69da52c5f58a412f8955062b2695" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_977a69da52c5f58a412f8955062b2695 = L.map(
+                "map_977a69da52c5f58a412f8955062b2695",
+                {
+                    center: [28.94904556915751, -59.072195491921946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67a6b28be22f494ce71d687be577c029 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_67a6b28be22f494ce71d687be577c029.addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var marker_f5d3fff0a128a4419056a8061b173e4b = L.marker(
+                [-37.10880642711254, -12.288562569323755],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var marker_4c0fd73e1726b90eec3e76f84241fba6 = L.marker(
+                [-37.10880642711254, -12.288562569323755],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var div_icon_7edbcdf1892a01a52e855e9b35f6edda = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 10px; font-weight: bold; background-color: white; \n                    padding: 2px; border-radius: 3px; border: 1px solid gray; \n                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);\"\u003e\n            Tristan da Cunha\n        \u003c/div\u003e"});
+            marker_4c0fd73e1726b90eec3e76f84241fba6.setIcon(div_icon_7edbcdf1892a01a52e855e9b35f6edda);
+        
+    
+            var marker_0622acfad4eeb856061d614d88da6c65 = L.marker(
+                [-15.960240609448975, -5.7047841487715125],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var marker_4f33921cc488a6276cc89d4c1b2e9eaa = L.marker(
+                [-15.960240609448975, -5.7047841487715125],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var div_icon_62687c08325fbfaa3d9e78685e266eff = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 10px; font-weight: bold; background-color: white; \n                    padding: 2px; border-radius: 3px; border: 1px solid gray; \n                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);\"\u003e\n            Saint Helena\n        \u003c/div\u003e"});
+            marker_4f33921cc488a6276cc89d4c1b2e9eaa.setIcon(div_icon_62687c08325fbfaa3d9e78685e266eff);
+        
+    
+            var marker_b824000ce60d397760afc6ef0e2b79e0 = L.marker(
+                [-7.9423559696089026, -14.366533397347828],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var marker_5f7dfebfd43d6e9b2c8fb563fefd914a = L.marker(
+                [-7.9423559696089026, -14.366533397347828],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var div_icon_93cefe0fbce513d98057f539b48a963f = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 10px; font-weight: bold; background-color: white; \n                    padding: 2px; border-radius: 3px; border: 1px solid gray; \n                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);\"\u003e\n            Ascension Island\n        \u003c/div\u003e"});
+            marker_5f7dfebfd43d6e9b2c8fb563fefd914a.setIcon(div_icon_93cefe0fbce513d98057f539b48a963f);
+        
+    
+            var marker_eac4f118e0d27dd2f47857d68978202a = L.marker(
+                [-25.06992321107777, -130.10593367045323],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var marker_4d1e10b87e13e653c0a399fd467840ba = L.marker(
+                [-25.06992321107777, -130.10593367045323],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var div_icon_86e1a9498abf1afa9e00109e43a00b70 = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 10px; font-weight: bold; background-color: white; \n                    padding: 2px; border-radius: 3px; border: 1px solid gray; \n                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);\"\u003e\n            Pitcairn Islands, Adamstown\n        \u003c/div\u003e"});
+            marker_4d1e10b87e13e653c0a399fd467840ba.setIcon(div_icon_86e1a9498abf1afa9e00109e43a00b70);
+        
+    
+            var marker_f13ff7f1b19decb6048ebc30e05e731f = L.marker(
+                [65.78507906407131, -168.9783413436392],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var marker_e4b68650377173eeb34881e9b2ba4a29 = L.marker(
+                [65.78507906407131, -168.9783413436392],
+                {}
+            ).addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+    
+            var div_icon_de34250696087e63c7cd39de1fc1f9a9 = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 10px; font-weight: bold; background-color: white; \n                    padding: 2px; border-radius: 3px; border: 1px solid gray; \n                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);\"\u003e\n            Diomede Islands\n        \u003c/div\u003e"});
+            marker_e4b68650377173eeb34881e9b2ba4a29.setIcon(div_icon_de34250696087e63c7cd39de1fc1f9a9);
+        
+    
+            tile_layer_67a6b28be22f494ce71d687be577c029.addTo(map_977a69da52c5f58a412f8955062b2695);
+        
+</script>
+</html>
